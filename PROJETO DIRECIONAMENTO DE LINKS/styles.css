@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    max-width: 1500px;
+    max-height: 100vh;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 70%, rgb(28, 0, 185) 100%);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: 40px;
+    color: #fffafa;
+}
+
+
+h2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    margin-left: 340px;
+    font-size: 90px;
+}
+
+p {
+  
+    text-align: center;
+   margin-left: 200px;
+    font-size: 50px;
+}
+
+h1 {
+    margin-top: 340px;
+    margin-bottom: 120px;
+    text-align: center;
+    font-size: 60px;
+    margin-left: 70px;
+
+}
+
+section {
+    display: grid;
+    place-items: center;
+    align-items: center;
+    min-width: 100vh;
+}
+
+.Avatar_aluno {
+
+    height: 290px;
+    border-radius: 15px;
+    margin: 25px;
+}
+
+.logos {
+    display: flex;
+    gap: 120px;
+    margin-left:50px;
+    margin-bottom: 140px;
+}
+
+.logos :nth-child(2) {
+    transition-delay: 300ms;
+}
+
+.logos :nth-child(3) {
+    transition-delay: 400ms;
+}
+
+.logos :nth-child(4) {
+    transition-delay: 700ms;
+}
+
+
+.hidden {
+    transition: all 1s;
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(-100%);
+}
+
+.adiconar_função {
+    transition: all 3s;
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+.icone_git{
+height: 55px;
+margin-left: 65px;
+}
